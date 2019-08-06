@@ -1,0 +1,7 @@
+* { 
+  box-sizing: border-box; 
+}
+
+#header {
+    filter: grayscale(90%) blur(7px);
+}
