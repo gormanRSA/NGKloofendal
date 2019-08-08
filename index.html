@@ -1,19 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <title>Bootstrap Youtube Video Background</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-    <script async src="https://www.youtube.com/iframe_api"></script>
-    <link rel="stylesheet" href="./lib/styles/video.css" />
-    <link rel="stylesheet" href="./lib/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div class="video-background" id="header">
-      <div id="video-foreground" class="mute"></div>
+    <div class="topnav" id="myTopnav" style="float: left;">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <h1>Welkom</h1>
+
+    <img class="bgimg-1" />
+
+    <div
+      class="row col-sm-12"
+      style="height: 500px; background-color: brown; margin: 0;"
+    >
+      About section
+    </div>
+
+    <img class="bgimg-2" />
+
+    <div class="row">
+      <div class="col-sm-4" style="padding: 0px;">
+        <div class="gallery" style="background-color: black;">
+          Hello
+        </div>
+      </div>
+      <div class="col-sm-4" style="padding: 0px;">
+        <div class="gallery" style="background-color: red;">
+          Hello
+        </div>
+      </div>
+      <div class="col-sm-4" style="padding: 0px;">
+        <div class="gallery" style="background-color: green;">
+          Hello
+        </div>
+      </div>
+    </div>
+
+    <img class="bgimg-3" />
   </body>
-  <script src="./lib/scripts/video.js"></script>
+  <script src="./lib/scripts.js"></script>
 </html>
